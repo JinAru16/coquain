@@ -1,0 +1,26 @@
+{
+  "name": "woom",
+  "version": "1.0.0",
+  "description": "Zoom clone coding Using WebRTC and Websockets",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm app.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "pug": "^3.0.2",
+    "socket.io": "^4.3.1",
+    "ws": "^8.2.3"
+  }
+}
